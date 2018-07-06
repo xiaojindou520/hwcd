@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>HARMONY-SHOP</title>
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/swiper-3.4.2.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <script src="lazyload/jquery.lazyload.js"></script>
+</head>
+<body>
+
+<script src="https://cdn.bootcss.com/jquery/2.2.4/jquery.js"></script>
+<script src="lazyload/jquery.lazyload.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="css/swiper-3.4.2.jquery.min.js"></script>
+<script src="js/my.js"></script>
+<script>
+    $(function(){
+        //懒加载
+        $('.artbox').find("img").lazyload({effect: "fadeIn"});
+        //banner图切换
+        var mySwiper = new Swiper('.swiper-container',{
+            pagination: '.swiper-pagination',
+            paginationClickable: true,
+            autoplay : 4000,
+            autoplayDisableOnInteraction : false,
+            loop : true,
+            loopAdditionalSlides : 1,
+            lazyLoading : true,
+            prevButton:'.swiper-button-prev',
+            nextButton:'.swiper-button-next',
+            breakpoints: {
+                768:{
+                    pagination: '',
+                }
+            }
+        });
+    });
+</script>
+</body>
+</html>
