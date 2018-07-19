@@ -2,6 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="efd77571-e0ca-4129-ba1a-ba4f5aa84cfd" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/sc.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/smenupic/accessories/1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/ssj.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/wsc.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/furniture/1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/furniture/2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/product/1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/product/s1.jpg" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/furniture.html" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/furniture_detail.html" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/product.html" />
@@ -274,12 +282,12 @@
       <workItem from="1531705344450" duration="4624000" />
       <workItem from="1531794276440" duration="9692000" />
       <workItem from="1531877260863" duration="9775000" />
-      <workItem from="1531964469683" duration="10502000" />
+      <workItem from="1531964469683" duration="11097000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="84854000" />
+    <option name="totallyTimeSpent" value="85449000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
