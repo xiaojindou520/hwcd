@@ -13,7 +13,6 @@
 .pst{ position: relative}
 
 /*RESIDENTIAL*/
-
 .ires,.hosi{ width: 1100px; padding-top: 35px; padding-bottom: 25px}
 .ireslist{ position: relative; width: 280px; height: 280px; float: left; margin-right: 74px; margin-bottom: 54px}
 .hosilist{ height: 500px; text-transform: uppercase; margin-top: 0; margin-bottom: 0}
@@ -27,3 +26,67 @@ text-align: center; line-height: 280px; color: #fff; font-size: 16px; display: n
 .hist{ margin-top: 405px; font-weight: bold}
 .hisc{ margin-top: 10px; font-size: 12px}
 .pt2{ margin-top: 53px}
+
+/*内页furniture*/
+.furbox{ width: 989px; margin: 0 auto}
+.roro{ margin-left: -34px; margin-right: -34px}
+.fsubmt{ font-size: 16px; padding-bottom: 17px; font-weight: bold}
+.fsub ul li{ line-height: 24px;}
+.fsub ul li a:hover{ color: #c1a68d}
+.furpro{ width: 460px; float: left; margin-right: 34px; margin-left: 34px; margin-bottom: 70px}
+.furpro_font{ background-color: #f7f8f8; padding: 24px 0 0 30px; height: 328px}
+.catemenu{ width: 201px;}
+.catemenu dl{ margin-bottom: 21px}
+.catemenu dt{ cursor: pointer; font-weight: normal; height: 37px; line-height: 37px; border-bottom: #f5f5f5 solid 1px; margin-bottom: 14px; padding-left: 19px}
+.catemenu dt span{ transition:transform 0.6s; -webkit-transition: transform 0.6s; -moz-transition: transform 0.6s; -o-transition: transform 0.6s;}
+.catemenu dt:hover span{transform: rotate(180deg)!important;}
+.catemenu dl.act dd{ display: block}
+.catemenu dl.act dt span{transform: rotate(180deg)}
+.catemenu dd{ max-height: 190px; overflow-y: auto; display: none}
+.catemenu dt span{ position: absolute; right: 1px; top: 18px}
+.catemenu dd::-webkit-scrollbar {/*滚动条整体样式*/
+    width: 10px;     /*高宽分别对应横竖滚动条的尺寸*/
+    height: 10px;
+}
+.catemenu dd::-webkit-scrollbar-thumb {/*滚动条里面小方块*/
+    -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0);
+    background: #cccccc;
+}
+.catemenu dd::-webkit-scrollbar-track {/*滚动条里面轨道*/
+    -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0);
+    background: #fff;
+}
+.catemenu dd a{ display: block; height: 31px; line-height: 31px; color: #999; padding-left: 19px}
+.catemenu dd a:hover{ color: #c1a68d}
+.procp{ width: 990px; float: right}
+.procp dl{ float: left; margin-left: 50px; width: 280px}
+.procp dd{ margin-top: 20px; margin-bottom: 80px}
+.proctt{ margin-bottom: 15px}
+
+/*product*/
+.pt3{ padding-bottom: 100px}
+.prol{ width: 680px}
+.pror{ width: 400px; background-color: #f5f5f5}
+.propic{ width: 680px; height: 380px; overflow: hidden;}
+.prospic{ margin-top: 12px; padding-left: 64px; margin-bottom: 85px; height: 97px;}
+.prospic ul li{ margin-right: 19px; float: left; width: 172px; height: 97px; overflow:hidden; border: #fff solid 1px}
+.prospic ul li span{ display: block; width: 170px; height: 95px;}
+.procon{ padding: 0 14px; line-height: 24px; margin-bottom: 25px}
+.price{ height: 142px; border-bottom: #cccccc solid 1px}
+.sc{ padding: 25px 0 0 358px; cursor: pointer}
+.je{ font-size: 18px; text-align: center; margin-top: 24px}
+.je span{ font-size: 12px; padding-right: 5px}
+.material{ height: 119px; padding: 25px 0 0 32px; border-bottom: #cccccc solid 1px}
+.yanse{ margin-top: 12px}
+.yanse ul li{ float: left; width: 42px; height: 42px; margin-right: 12px}
+.yanse ul li span{ display: block; width: 40px; height: 40px; border: #f5f5f5 solid 1px}
+.yanse ul li span.ysact{ border: #000000 solid 1px}
+.yanse ul li .gg1{ background-color: #333333}
+.yanse ul li .gg2{ background-color: #8b8b8b}
+.yanse ul li .gg3{ background-color: #6b8873}
+.count{ height: 60px; padding: 22px 0 0 32px; border-bottom: #cccccc solid 1px}
+.inventory{ font-size: 10px!important; color: #999999; padding-left: 18px}
+.shumu{ padding-right: 50px; font-size: 10px!important; color: #999999;}
+input.numbox{ height: 16px; border: #cccccc solid 1px; width: 30px; color: #000; text-align: center; margin-right: 12px}
+button.btn-black{ width: 250px; height: 35px; text-align: center; line-height: 35px; background-color: #333333; color: #fff; border: none; margin-bottom: 10px}
+.tjbtn{ height: 145px; padding-top: 34px}
